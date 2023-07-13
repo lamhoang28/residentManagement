@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".UI.Frag_Profile">
+
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="140sp"
+        android:layout_marginTop="-20sp"
+        app:cardBackgroundColor="@color/color_DA"
+        app:cardCornerRadius="22sp">
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30sp"
+            android:layout_marginLeft="10sp"
+            >
+            <ImageView
+                android:id="@+id/Frag_Home_imgProFile"
+                android:layout_width="100sp"
+                android:layout_height="100sp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/profile"/>
+
+            <TextView
+                android:id="@+id/Frag_Home_nameProFile"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@+id/Frag_Home_imgProFile"
+                android:layout_marginTop="10sp"
+                android:textSize="22sp"
+                android:layout_marginLeft="12sp"
+                android:text="Admin"
+                android:textStyle="bold"
+                android:textColor="@color/white"/>
+
+            <TextView
+                android:id="@+id/Frag_Home_roomProFile"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@+id/Frag_Home_imgProFile"
+                android:layout_below="@+id/Frag_Home_nameProFile"
+                android:layout_margin="12sp"
+                android:padding="6sp"
+                android:textSize="12sp"
+                android:background="@drawable/boder_room"
+                android:text="CT3-902"
+                android:textStyle="bold"
+                android:textColor="@color/color_DA"/>
+        </RelativeLayout>
+
+    </androidx.cardview.widget.CardView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="@drawable/boder_table"
+        android:layout_margin="9sp">
+
+        <TextView
+            android:id="@+id/Frag_Profile_info"
+            android:layout_width="match_parent"
+            android:layout_height="50sp"
+            android:gravity="center_vertical"
+            android:drawableStart="@drawable/ic_report"
+            android:paddingStart="9sp"
+            android:textStyle="bold"
+            android:textSize="15sp"
+            android:text="@string/accountInformation"
+            android:drawableEnd="@drawable/ic_more"
+            android:drawablePadding="9sp"
+            android:background="@drawable/boder_item"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="50sp"
+            android:gravity="center_vertical"
+            android:drawableStart="@drawable/ic_report"
+            android:layout_marginTop="9sp"
+            android:paddingStart="9sp"
+            android:textStyle="bold"
+            android:textSize="15sp"
+            android:text="@string/BuildingApartmentInformation"
+            android:drawableEnd="@drawable/ic_more"
+            android:drawablePadding="9sp"
+            android:background="@drawable/boder_item"/>
+
+        <TextView
+            android:id="@+id/Frag_Profile_change_password"
+            android:layout_width="match_parent"
+            android:layout_height="50sp"
+            android:gravity="center_vertical"
+            android:drawableStart="@drawable/ic_report"
+            android:layout_marginTop="9sp"
+            android:paddingStart="9sp"
+            android:textStyle="bold"
+            android:textSize="15sp"
+            android:text="@string/changePassword"
+            android:drawableEnd="@drawable/ic_more"
+            android:drawablePadding="9sp"
+            android:background="@drawable/boder_item"/>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/Frag_Profile_Cardview"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <LinearLayout
+                    android:id="@+id/Frag_Profile_layout"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:animateLayoutChanges="true"
+                    android:orientation="vertical">
+                    <TextView
+                        android:id="@+id/Frag_Profile_language"
+                        android:layout_width="match_parent"
+                        android:layout_height="50sp"
+                        android:gravity="center_vertical"
+                        android:drawableStart="@drawable/ic_report"
+                        android:layout_marginTop="9sp"
+                        android:paddingStart="9sp"
+                        android:textStyle="bold"
+                        android:textSize="15sp"
+                        android:text="Language"
+                        android:drawableEnd="@drawable/ic_more"
+                        android:drawablePadding="9sp"
+                        android:background="@drawable/boder_item"/>
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+        <TextView
+            android:id="@+id/Frag_Profile_vn"
+            android:layout_width="match_parent"
+            android:layout_height="50sp"
+            android:visibility="gone"
+            android:gravity="center_vertical"
+            android:layout_marginTop="9sp"
+            android:paddingStart="9sp"
+            android:textStyle="bold"
+            android:textSize="15sp"
+            android:text="Vietnamese"
+            android:drawablePadding="9sp"
+            android:background="@drawable/boder_item"/>
+
+        <TextView
+            android:id="@+id/Frag_Profile_us"
+            android:layout_width="match_parent"
+            android:layout_height="50sp"
+            android:visibility="gone"
+            android:gravity="center_vertical"
+            android:layout_marginTop="9sp"
+            android:paddingStart="9sp"
+            android:textStyle="bold"
+            android:textSize="15sp"
+            android:text="Englist"
+            android:drawablePadding="9sp"
+            android:background="@drawable/boder_item"/>
+        <TextView
+            android:id="@+id/Frag_Profile_logout"
+            android:layout_width="match_parent"
+            android:layout_height="50sp"
+            android:gravity="center_vertical"
+            android:drawableStart="@drawable/ic_report"
+            android:layout_marginTop="9sp"
+            android:paddingStart="9sp"
+            android:textStyle="bold"
+            android:textSize="15sp"
+            android:text="@string/logOut"
+            android:drawableEnd="@drawable/ic_more"
+            android:drawablePadding="9sp"
+            android:background="@drawable/boder_item"/>
+
+
+
+
+    </LinearLayout>
+
+
+</LinearLayout>

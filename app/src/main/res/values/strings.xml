@@ -1,0 +1,68 @@
+<resources>
+    <string name="app_name">NHOM6_DATN</string>
+    <string name="Login">LOGIN</string>
+    <string name="Email">Please enter email</string>
+    <string name="PassWord">Please enter password</string>
+    <string name="Login_As">Login as :</string>
+    <string name="Rdo_Admin">Admin</string>
+    <string name="Rdo_Member">Member</string>
+    <string name="Forgot_passWord">Forgot password ?</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_navigation">Navigation</string>
+    <string name="menu_profile">Profile</string>
+
+    <string name="notification">Notification</string>
+
+    <string name="hello_Profile_AM">Good morning !!!</string>
+    <string name="hello_Profile_CM">Good afternoon !!!</string>
+    <string name="hello_Profile_PM">Good evening !!!</string>
+    <string name="home_Service">Service</string>
+    <string name="home_History">History</string>
+    <string name="home_reportService">Report service error</string>
+    <string name="home_Repair">Repair</string>
+    <string name="home_EmergencyIncident">Emergency incident</string>
+    <string name="home_News">News</string>
+
+    <string name="home_Manage_Admin">Manage</string>
+    <string name="home_Statistical_Admin">Statistical</string>
+    <string name="home_Apartment_Admin">Apartment</string>
+    <string name="home_Resident_Admin">Resident</string>
+    <string name="home_staff_Admin">Staff</string>
+
+
+    <string name="accountInformation">Account information</string>
+    <string name="BuildingApartmentInformation">Building apartment information</string>
+    <string name="changePassword">Change password</string>
+    <string name="requestSent">Request sent</string>
+    <string name="logOut">Logout</string>
+
+    <string name="successful">Successful manipulation !</string>
+    <string name="error">Error! An error occurred. Please try again later !</string>
+    <string name="home_checkBox">Remember me</string>
+    <string name="ERROR">Cannot be left blank !</string>
+
+    <string name="title_tab1">System</string>
+    <string name="title_tab2">Habitat</string>
+    <string name="title_tab3">Support</string>
+
+    <string name="message_tab1">Monitor building management activities with ease.</string>
+    <string name="message_tab2">Build a cohesive community.</string>
+    <string name="message_tab3">Improve the quality of management, serving residents</string>
+
+    <string name="Wellcome">Wellcome</string>
+    //logout
+    <string name="title_logout">Logout</string>
+    <string name="message_logout">Are you sure you want to sign out?</string>
+    <string name="yes_logout">Yes</string>
+    <string name="no_logout">No</string>
+    //status
+    <string name="cance">The operation is cancelled</string>
+    <string name="success">Success</string>
+    //searh
+    <string name="newsSearch">News search</string>
+    //admin
+
+    <string name="Administrators">Administrators</string>
+
+</resources>

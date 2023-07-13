@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.NHOM6_DATN"
+        android:usesCleartextTraffic="true"
+        tools:targetApi="31">
+        <activity
+            android:name=".UI.Acti_ViewInfo"
+            android:exported="false" />
+        <activity
+            android:name=".UI.Acti_ViewNews"
+            android:exported="false" />
+        <activity
+            android:name=".UI.Acti_News"
+            android:exported="false" />
+        <activity
+            android:name=".UI.Manager.Acti_Statistical"
+            android:exported="false" />
+        <activity
+            android:name=".UI.Main_Splash_Screen"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".UI.Onboarding.Acti_Onboarding"
+            android:exported="false" />
+        <activity
+            android:name=".UI.Manager.Acti_Manager"
+            android:exported="false" />
+        <activity
+            android:name=".UI.Acti_Login"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="false" />
+    </application>
+
+</manifest>

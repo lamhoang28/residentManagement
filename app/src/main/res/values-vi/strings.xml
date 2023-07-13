@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">NHOM6_DATN</string>
+    <string name="Login">Đăng nhập</string>
+    <string name="Email">Nhập email</string>
+    <string name="PassWord">Nhập mật khẩu</string>
+    <string name="Login_As">Đăng nhập với tư cách :</string>
+    <string name="Rdo_Admin">Quản trị viên</string>
+    <string name="Rdo_Member">Người dùng</string>
+    <string name="Forgot_passWord">Quên mật khẩu ?</string>
+
+    <string name="menu_home">Trang chủ</string>
+    <string name="menu_navigation">Thông báo</string>
+    <string name="menu_profile">Cá nhân</string>
+
+
+    <string name="notification">Thông báo</string>
+
+    <string name="hello_Profile_AM">Chào buổi sáng !!!</string>
+    <string name="hello_Profile_CM">Chào buổi chiều !!!</string>
+    <string name="hello_Profile_PM">Chào buổi tối !!!</string>
+
+    <string name="home_Service">Dịch vụ</string>
+    <string name="home_History">Lịch sử thanh toán</string>
+    <string name="home_reportService">Báo lỗi dịch vụ</string>
+    <string name="home_Repair">Sửa chữa</string>
+    <string name="home_EmergencyIncident">Sự cố khẩn cấp</string>
+    <string name="home_News">Tin tức</string>
+
+
+    <string name="home_Manage_Admin">Quản lý</string>
+    <string name="home_Statistical_Admin">Thống kê</string>
+    <string name="home_Apartment_Admin">Căn hộ</string>
+    <string name="home_Resident_Admin">Cư dân</string>
+    <string name="home_staff_Admin">Nhân viên</string>
+
+
+    <string name="accountInformation">Thông tin tài khoản</string>
+    <string name="BuildingApartmentInformation">Thông tin tòa nhà/ căn hộ</string>
+    <string name="changePassword">Đổi mật khẩu</string>
+    <string name="requestSent">Yêu cầu đã gửi</string>
+    <string name="logOut">Đăng xuất</string>
+
+    <string name="successful">Thao tác thành công !</string>
+    <string name="error">Có lỗi xảy ra !</string>
+    <string name="home_checkBox">Lưu tài khoản</string>
+    <string name="ERROR">Không được để trống!</string>
+
+    <string name="title_tab1">Hệ thống</string>
+    <string name="title_tab2">Môi trường sống</string>
+    <string name="title_tab3">Hỗ trợ</string>
+
+    <string name="message_tab1">Theo dõi hoạt động quản lý tòa nhà một cách dễ dàng.</string>
+    <string name="message_tab2">Xây dựng cộng đồng cư dân gắn kết.</string>
+    <string name="message_tab3">Nâng cao chất lượng quản lý, phục vụ cư dân</string>
+
+    <string name="Wellcome">Chào mừng bạn</string>
+
+    //logout
+    <string name="title_logout">Đăng xuất</string>
+    <string name="message_logout">Bạn có chắc muốn đăng xuất không ?</string>
+    <string name="yes_logout">Có</string>
+    <string name="no_logout">Không</string>
+
+    //cance
+    <string name="cance">Thao tác bị hủy</string>
+    <string name="success">Thành công</string>
+
+    //searh
+    <string name="newsSearch">Tìm kiếm tin tức</string>
+    //admin
+    <string name="Administrators">Quản trị viên</string>
+
+</resources>

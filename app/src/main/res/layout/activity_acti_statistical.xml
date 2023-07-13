@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".UI.Manager.Acti_Statistical">
+
+    <RelativeLayout
+        android:id="@+id/Acti_Statistical_RelativeLayout"
+        android:layout_width="match_parent"
+        android:layout_height="60sp"
+        android:background="@color/color_DA"
+        android:layout_alignParentTop="true"
+        >
+        <ImageButton
+            android:id="@+id/Acti_Statistical_return"
+            android:layout_width="60sp"
+            android:layout_height="60sp"
+            android:background="@null"
+            android:src="@drawable/ic_back"
+            android:gravity="center"
+            android:layout_alignParentStart="true"/>
+
+        <TextView
+            android:id="@+id/Acti_Statistical_title"
+            android:layout_width="wrap_content"
+            android:layout_height="50sp"
+            android:layout_toRightOf="@+id/Acti_Statistical_return"
+            android:gravity="center"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:layout_margin="12sp"
+            android:textColor="@color/white"
+            android:text="@string/home_Statistical_Admin"/>
+
+    </RelativeLayout>
+
+</RelativeLayout>

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="355sp"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.cardview.widget.CardView
+        android:layout_width="350sp"
+        android:layout_height="wrap_content"
+        android:layout_margin="2sp"
+        app:cardCornerRadius="18sp">
+        <RelativeLayout
+            android:layout_width="350sp"
+            android:layout_height="wrap_content">
+            <TextView
+                android:id="@+id/dialog_title"
+                android:layout_width="match_parent"
+                android:layout_height="50sp"
+                android:layout_alignParentTop="true"
+                android:text="ERROR"
+                android:textSize="22sp"
+                android:textColor="#3E3E3E"
+                android:background="#f1f1f1"
+                android:gravity="center"/>
+            <View
+                android:layout_width="350sp"
+                android:layout_height="1sp"
+                android:layout_below="@+id/dialog_title"
+                android:background="#D3D2D2"/>
+            <TextView
+                android:id="@+id/dialog_messager"
+                android:layout_width="match_parent"
+                android:layout_height="100sp"
+                android:text="Đã xảy ra lỗi không đáng có.\n xin thử lại sau."
+                android:textSize="22sp"
+                android:padding="9sp"
+                android:textColor="#6E6E6E"
+                android:gravity="center"
+                android:layout_below="@+id/dialog_title"/>
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/yes_dialog"
+                android:layout_width="match_parent"
+                android:layout_height="50sp"
+                android:background="@color/color_DA"
+                android:layout_below="@+id/dialog_messager"
+                android:text="@string/yes_logout"
+                android:textColor="@color/white"
+                android:textSize="20sp"/>
+
+        </RelativeLayout>
+    </androidx.cardview.widget.CardView>
+</LinearLayout>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".UI.Onboarding.Frag_Tab1">
+
+    <ImageView
+        android:id="@+id/Frag_Tab1_img"
+        android:layout_width="350sp"
+        android:layout_height="350sp"
+        android:src="@drawable/logo"
+        android:layout_gravity="center"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/title_tab1"
+        style="@style/title_tab"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/message_tab1"
+        style="@style/message"
+        />
+
+</LinearLayout>

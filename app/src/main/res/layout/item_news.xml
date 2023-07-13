@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:id="@+id/itemNews_news"
+    android:layout_height="315sp"
+    app:cardCornerRadius="15sp"
+    app:cardElevation="1sp"
+    android:layout_margin="3sp">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#eaf2fd">
+        <ImageView
+            android:id="@+id/itemNews_img"
+            android:layout_width="match_parent"
+            android:layout_height="200sp"
+            android:scaleType="centerCrop"
+            android:src="@color/color_DA"/>
+
+        <TextView
+            android:id="@+id/itemNews_date"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_marginTop="12sp"
+            android:layout_marginLeft="12sp"
+            android:layout_below="@+id/itemNews_img"
+            android:text="01:02 28/10/2000"
+            android:maxLength="30"
+            android:textColor="@color/black"
+            android:textSize="10sp"/>
+
+        <ImageView
+            android:id="@+id/itemNews_player"
+            android:layout_width="50sp"
+            android:layout_height="50sp"
+            android:layout_marginLeft="12sp"
+            android:layout_marginTop="12sp"
+            android:scaleType="centerCrop"
+            android:layout_below="@+id/itemNews_date"
+            android:src="@drawable/profile"/>
+
+        <TextView
+            android:id="@+id/itemNews_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="12sp"
+            android:layout_marginTop="12sp"
+            android:layout_below="@+id/itemNews_date"
+            android:layout_toRightOf="@+id/itemNews_player"
+            android:maxLength="33"
+            android:text="androidx.cardview.widget.CardView"
+            android:textColor="#575757"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+        <TextView
+            android:id="@+id/itemNews_message"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/itemNews_title"
+            android:layout_toRightOf="@+id/itemNews_player"
+            android:layout_marginLeft="12sp"
+            android:text="Phần mềm được xem là tốt khi khi nó có kiến trúc tốt. Kiến trúc phần mềm tương tự như móng nhà, móng yếu nhà sẽ không vững. Để viết được phần mềm tốt bạn phải học rất nhiều, điều đầu tiên bạn cần biết là SOLID."
+            android:maxLength="70"
+            android:textColor="#919294"
+            android:textSize="15sp"/>
+    </RelativeLayout>
+</androidx.cardview.widget.CardView>

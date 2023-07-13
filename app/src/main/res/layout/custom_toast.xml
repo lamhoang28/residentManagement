@@ -1,0 +1,47 @@
+<RelativeLayout
+    android:id="@+id/cl_customToastContainer"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="300sp"
+    android:layout_height="100sp"
+    android:orientation="horizontal"
+    android:gravity="center"
+    android:layout_gravity="center"
+    >
+
+    <RelativeLayout
+        android:id="@+id/custom_toast"
+        android:layout_width="match_parent"
+        android:layout_height="70sp"
+        android:background="@drawable/success_shape"
+        android:paddingTop="8dp"
+        android:paddingBottom="8dp"
+        android:paddingRight="24dp"
+        android:paddingLeft="16dp"
+        android:layout_marginTop="20dp"
+        android:gravity="center">
+
+
+        <TextView
+            android:id="@+id/tv_message"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Mission Completed"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:layout_marginStart="6dp" />
+
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/img_icon"
+        android:layout_width="32dp"
+        android:layout_height="32dp"
+        android:paddingStart="4sp"
+        android:drawableStart="@drawable/ic_home"
+        android:background="@drawable/success_shape"
+        android:layout_alignParentTop="true"
+        android:layout_marginRight="14sp"
+        android:layout_alignEnd="@+id/custom_toast"/>
+
+</RelativeLayout>

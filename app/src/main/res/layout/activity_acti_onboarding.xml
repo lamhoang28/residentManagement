@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".UI.Onboarding.Acti_Onboarding">
+
+    <androidx.viewpager2.widget.ViewPager2
+        android:id="@+id/Acti_Onboarding_ViewPager2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        />
+
+    <LinearLayout
+        android:id="@+id/Acti_Onboarding_LinearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="150sp"
+        android:orientation="vertical"
+        android:background="@color/color_DA"
+        android:layout_alignParentBottom="true">
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="50sp"
+            android:background="@drawable/boder_onboarding"/>
+        <me.relex.circleindicator.CircleIndicator3
+            android:id="@+id/Acti_Onboarding_CircleIndicator3"
+            android:layout_width="match_parent"
+            android:layout_height="50sp"
+            android:layout_alignParentBottom="true"
+            android:layout_centerInParent="true"
+            android:gravity="center"
+            android:layout_marginBottom="50sp"
+            app:ci_height="9sp"
+            app:ci_margin="9sp"
+            app:ci_width="9sp" />
+    </LinearLayout>
+
+
+
+</RelativeLayout>

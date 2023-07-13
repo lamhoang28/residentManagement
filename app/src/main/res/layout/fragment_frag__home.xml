@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".UI.Frag_Home">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="200sp"
+            android:layout_marginTop="-40sp"
+            app:cardCornerRadius="45sp">
+
+                <ImageView
+                    android:id="@+id/Frag_Home_imgSky"
+                    android:layout_width="match_parent"
+                    android:layout_height="200sp"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/sky_am"/>
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="200sp"
+                    android:scaleType="centerCrop"
+                    android:background="@drawable/boder_home"/>
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="90sp"
+                    android:layout_marginLeft="10sp"
+                    >
+                        <ImageView
+                            android:id="@+id/Frag_Home_imgProFile"
+                            android:layout_width="100sp"
+                            android:layout_height="100sp"
+                            android:scaleType="centerCrop"
+                            android:src="@drawable/profile"/>
+
+                        <TextView
+                            android:id="@+id/Frag_Home_helloProfile"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_toRightOf="@+id/Frag_Home_imgProFile"
+                            android:layout_marginLeft="12sp"
+                            android:text="@string/hello_Profile_AM"
+                            android:textColor="@color/white"/>
+
+                        <TextView
+                            android:id="@+id/Frag_Home_nameProFile"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_toRightOf="@+id/Frag_Home_imgProFile"
+                            android:layout_below="@+id/Frag_Home_helloProfile"
+                            android:textSize="22sp"
+                            android:layout_marginLeft="12sp"
+                            android:text="Admin"
+                            android:textStyle="bold"
+                            android:textColor="@color/white"/>
+
+                        <TextView
+                            android:id="@+id/Frag_Home_roomProFile"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_toRightOf="@+id/Frag_Home_imgProFile"
+                            android:layout_below="@+id/Frag_Home_nameProFile"
+                            android:layout_margin="12sp"
+                            android:padding="6sp"
+                            android:textSize="12sp"
+                            android:background="@drawable/boder_room"
+                            android:text="CT3-902"
+                            android:textStyle="bold"
+                            android:textColor="@color/color_DA"/>
+                </RelativeLayout>
+
+        </androidx.cardview.widget.CardView>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="9sp"
+            android:textSize="20sp"
+            android:text="@string/home_Service"
+            android:textStyle="bold"
+            android:textColor="@color/color_DA"/>
+
+        <View
+            android:layout_width="40dp"
+            android:layout_height="4dp"
+            android:layout_marginLeft="9dp"
+            android:background="@drawable/line"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/Frag_home_AppCompatButton_news"
+                android:layout_width="match_parent"
+                android:layout_height="60sp"
+                android:layout_margin="6sp"
+                android:text="@string/home_News"
+                android:drawableLeft="@drawable/ic_news"
+                android:paddingStart="9sp"
+                android:textColor="@color/color_DA"
+                android:background="@drawable/boder_item"
+                android:textStyle="bold" />
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/Frag_home_AppCompatButton_service"
+                android:layout_width="match_parent"
+                android:layout_height="60sp"
+                android:layout_margin="6sp"
+                android:drawableLeft="@drawable/ic_service"
+                android:paddingStart="9sp"
+                android:text="@string/home_Service"
+                android:textColor="@color/color_DA"
+                android:background="@drawable/boder_item"
+                android:textStyle="bold"/>
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/Frag_home_AppCompatButton_history"
+                android:layout_width="match_parent"
+                android:layout_height="60sp"
+                android:layout_margin="6sp"
+                android:drawableLeft="@drawable/ic_history"
+                android:paddingStart="9sp"
+                android:text="@string/home_History"
+                android:textColor="@color/color_DA"
+                android:background="@drawable/boder_item"
+                android:textStyle="bold"/>
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/Frag_home_AppCompatButton_error"
+                android:layout_width="match_parent"
+                android:layout_height="60sp"
+                android:layout_margin="6sp"
+                android:drawableLeft="@drawable/ic_warning"
+                android:paddingStart="9sp"
+                android:text="@string/home_EmergencyIncident"
+                android:textColor="@color/waring"
+                android:background="@drawable/boder_item_waring"
+                android:textStyle="bold"/>
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/Frag_home_news"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="9sp"
+            android:textSize="20sp"
+            android:text="@string/home_News"
+            android:textStyle="bold"
+            android:textColor="@color/color_DA"/>
+
+        <View
+            android:layout_width="40dp"
+            android:layout_height="4dp"
+            android:layout_marginLeft="9dp"
+            android:background="@drawable/line"/>
+        <com.facebook.shimmer.ShimmerFrameLayout
+            android:id="@+id/Frag_home_ShimmerFrameLayout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            >
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <include layout="@layout/item_news_load"/>
+
+            </LinearLayout>
+
+        </com.facebook.shimmer.ShimmerFrameLayout>
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/RecyclerView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            tools:listitem="@layout/item_news"
+            tools:itemCount="2"
+            android:layout_margin="9dp"
+            />
+    </LinearLayout>
+</ScrollView>

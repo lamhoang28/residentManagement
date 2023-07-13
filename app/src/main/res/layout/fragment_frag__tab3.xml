@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".UI.Onboarding.Frag_Tab3">
+
+    <ImageView
+        android:id="@+id/Frag_Tab3_img"
+        android:layout_width="350sp"
+        android:layout_height="350sp"
+        android:src="@drawable/png3"
+        android:layout_gravity="center"
+        android:scaleType="centerCrop"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/title_tab3"
+        style="@style/title_tab"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/message_tab3"
+        style="@style/message"
+        />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/Frag_Tab3_AppCompatButton"
+        android:layout_width="200sp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:text="@string/Login"
+        style="@style/buttonLogin"/>
+</LinearLayout>
